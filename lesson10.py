@@ -17,7 +17,7 @@ print(mystring5[3:4])  # Outputs: 'o' - Retrieves a substring from index 3 to 4 
 print(mystring5[:4])  # Outputs: 'i lo' - Retrieves a substring from the start to index 4 (not inclusive)
 print(mystring5[5:])  # Outputs: 'python' - Retrieves a substring from index 5 to the end
 print(mystring5[:])  # Outputs: 'i love python' - Retrieves the entire string
-print(mystring5[0::1])  # Outputs: 'i love python' - Retrieves the entire string with a step of 1
+print(mystring5[0::1] + " Hier")  # Outputs: 'i love python' - Retrieves the entire string with a step of 1
 print(mystring5[::1])  # Outputs: 'i love python' - Retrieves the entire string with a step of 1
 print(mystring5[::2])  # Outputs: 'ilv yhn' - Retrieves the string with a step of 2, skipping every other character
-print(mystring5[::3])  # Outputs: 'ieph' - Retrieves the string with a step of 3, skipping every two characters
+print(mystring5[::3])  # Outputs: 'io tn' - Retrieves the string with a step of 3, skipping every two characters

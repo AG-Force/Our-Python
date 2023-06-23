@@ -73,6 +73,6 @@ print(a12.startswith("p", 7, 12))
 # Output: True
 
 a13 = "i love python"
-print(a13.endswith("e", 2, 6))
+print(a13.endswith("e", 2, 1))
 # The endswith("e", 2, 6) method checks if the substring from index 2 to index 5 (exclusive) ends with "e".
 # Output: False

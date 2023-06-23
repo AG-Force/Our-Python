@@ -28,7 +28,7 @@ print("123456\rAbcd")
 
 # Horizontal Tab
 print("Hallo\tpython")
-# Character hex value
-print("\x4F\x73")
+# Character hex value \x
+print("\x4F\x73\x7D")
 
 

@@ -47,7 +47,7 @@ print(myString8)  # Print the value of myString8
 #################################
 myString9 = '''
 look out 
-so we can write\\\ text in multiple lines 
+so we can write\\\\\\\    text in multiple lines 
 "test1"
 'test2' \
 "test3"

@@ -7,6 +7,7 @@ print(b.replace("a", "1" , 1))
 c = ["Gassan", "Ahmed", "Zakaria"]
 print("-".join(c))
 print(":)".join(c))
-print(type(":)".join(c)))
+print(type(":)".join(c)))#
 
 
+       

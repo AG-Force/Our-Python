@@ -1,6 +1,6 @@
 name = "Gassan"
 age = 22
-rank = 10
+rank = 10 
 
 print("My name is: %s" % "Gassan Abdalhamid \n")  # Printing a literal string
 print("My name is: {}".format(name))  # Printing a literal string

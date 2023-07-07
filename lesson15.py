@@ -5,7 +5,7 @@ rank = 10
 
 # Printing variables using the string format syntax (using %s and %d)
 print("My name is: %s" % "Gassan Abdalhamid \n")  # Printing a literal string
-print("My name is: %s and my Age is %s" %(name,age))  # Printing two strings (age is treated as string here)
+print("My name is: %s and my Age is %d" %(name,age))  # Printing two strings (age is treated as string here)
 
 print("My name is: %s and my Age is %d" %(name,age))  # Printing string and integer (age is treated as integer here)
 print("My name is: %s and my Age is %d and my rank is %f" %(name,age,rank))  # Printing string, integer and float

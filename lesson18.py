@@ -13,5 +13,5 @@ print((50+50)/2)
 print(5**5)
 print(5**2)
 #floor division
-print(100//20)
+print(100//21)
 print(110 // 20)

@@ -8,11 +8,11 @@ print(a.index("p", 0, 10))
 
 print(a.find("p"))
 print(a.find("p", 0, 10))
-print(a.find("p", 0, 5))
+print(a.find("p", 0, 4))
 
 ###########################################################
 c = "Osama"
-print(c.rjust(10))
+print(c.rjust(20))
 print(c.rjust(10, "#"))
 print(c.ljust(10, "#"))
 ###########################################################
@@ -48,5 +48,5 @@ print(five.isidentifier())
 x = "AAAAABBBB"
 print(x.isalpha())
 ###########################################################
-z = "234dsfsdfsdf"
+z = "ss"
 print(z.isalnum())

@@ -7,7 +7,7 @@ print(myAwesomelist[0])
 
 print(myAwesomelist[-1])
 
-print(myAwesomelist[1:4])
+print(myAwesomelist[0:4])
 
 print(type(myAwesomelist[1]))
 

@@ -3,7 +3,7 @@ print(len(a))
 # The len() function returns the length of the string.
 # Output: 13
 
-a = "I love python     "
+a = "     I love python    "
 print(a.strip())
 # The strip() method removes leading and trailing whitespace characters from the string.
 # Output: "I love python"
@@ -12,7 +12,7 @@ print(a.rstrip())
 # The rstrip() method removes trailing whitespace characters from the string.
 # Output: "I love python"
 
-print(a.lstrip())
+print("test2" + a.lstrip() + "test")
 # The lstrip() method removes leading whitespace characters from the string.
 # Output: "I love python     "
 
@@ -25,7 +25,7 @@ print(len(a.rstrip()))
 print(len(a.lstrip()))
 # Output: 18 (including the trailing whitespace)
 
-a1 = "#################I love python     "
+a1 = "    #################hier I love python   "
 print(a1.strip())
 # The strip() method removes leading and trailing "#" characters from the string.
 # Output: "I love python"

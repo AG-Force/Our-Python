@@ -20,9 +20,6 @@ print(a4.split("-", 2))
 # but limits the splitting to a maximum of 2 occurrences.
 # Output: ['I', 'love', 'python-and-php']
 
-a4 = "I-love-python-and-php"
-print(a4.split("-", 2))
-# This line is a duplicate of the previous line and has the same output.
 
 a5 = "I-love-python-and-php"
 print(a5.rsplit("-", 2))
@@ -73,6 +70,6 @@ print(a12.startswith("p", 7, 12))
 # Output: True
 
 a13 = "i love python"
-print(a13.endswith("e", 2, 1))
+print(a13.endswith("e", 0, 6))
 # The endswith("e", 2, 6) method checks if the substring from index 2 to index 5 (exclusive) ends with "e".
 # Output: False

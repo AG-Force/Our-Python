@@ -10,7 +10,7 @@ Myfriends.append(343434)
 print(Myfriends)
 Myfriends.append(Myoldfriends)
 print(Myfriends)
-print(Myfriends[5][0])
+print(Myfriends[5][1])
 ##################################### extend()
 a = [1, 2, 3, 4, 5]
 b = ["A", "B", "C"]
@@ -20,7 +20,7 @@ a.extend(c)
 print(a)
 ##################################### remove()
 a2 = [1, 2, 3, 4, 5, "Test", True]
-a2.remove(1)
+a2.remove("Test")
 print(a2)
 ##################################### sort()
 a3 = [1, 2, 3, 4, 5,0,7,8,9,6]

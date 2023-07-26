@@ -17,7 +17,7 @@ print(myAwesomeTupleThree[-3])
 
 
 myAwesomeTupleFour = (1,2,3,4,5)
-#myAwesomeTupleFour[2] = "Three"
+#myAwesomeTupleFour[2] = "Three" tuple are immutable
 
 #print(myAwesomeTupleFour) # tuple object doesn't support item assignment
 ##### Tuple Items#####

@@ -56,7 +56,7 @@ print(b.title())
 # The title() method capitalizes the first character of each word in the string.
 # Output: "I Love Your Pets 3M"
 
-b1 = "i love your pets 3g"
+b1 = "i Love Your pets 3g"
 print(b1.capitalize())
 # The capitalize() method capitalizes only the first character of the string.
 # Output: "I love your pets 3g"

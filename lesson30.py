@@ -14,7 +14,8 @@ member = {
     "name": "Osama",
     "skill": "ps4"
 }
-member.update({"age": 22})  # Add the key-value pair "age": 22 to the 'member' dictionary
+member.update({"age": 22})  # Add the key-value pair "age": 22 to the 'member' dictionarymember.update({"age": 22})  # Add the key-value pair "age": 22 to the 'member' dictionary
+member.update({"nation": "Syria"})  # Add the key-value pair "age": 22 to the 'member' dictionary
 print(member)  # Print the 'member' dictionary
 print(member.popitem())  # Remove and return an arbitrary key-value pair from the 'member' dictionary and print it
 print("=" * 100)  # Print a line of 100 '=' characters

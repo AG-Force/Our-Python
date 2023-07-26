@@ -28,8 +28,8 @@ a3.sort()
 print(a3)
 a3.sort(reverse=True)
 print(a3)
-a4 = ["Z","B","A"]
-a3.sort(reverse=True)
+a4 = ["Z","B","A", "C"]
+a4.sort(reverse=True)
 print(a4)
 
 ##################################### reverse()

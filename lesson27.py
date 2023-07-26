@@ -4,6 +4,8 @@ b = {1, 2, 3}
 c = {1, 2, 3, 4, 5}
 print(a.issuperset(b))  # It checks if all elements of b are in a
 print(a.issuperset(c))  # It checks if all elements of c are in a
+print(b.issuperset(a))  
+
 ################################################################issubset()
 print("=" * 100)
 d = {1, 2, 3, 4}
@@ -12,7 +14,7 @@ f = {1, 2, 3, 4, 5}
 print(d.issubset(e))  # It checks if all elements of d are in e
 print(d.issubset(f))  # It checks if all elements of d are in f
 print("=" * 100)
-
+#Zusammenfassend: issuperset() überprüft, ob eine Menge alle Elemente einer anderen Menge enthält, während issubset() überprüft, ob eine Menge in einer anderen Menge enthalten ist.
 ################################################################isdisjoint()
 g = {1, 2, 3, 4}
 h = {1, 2, 3}
